@@ -79,5 +79,6 @@ yarn preview
 [Node]: https://nodejs.org/en
 [Prettier]: https://prettier.io/
 [React]: https://react.dev
-[spa]: 
+
+[spa]:
 [TypeScript]: https://www.typescriptlang.org/
