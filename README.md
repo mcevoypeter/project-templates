@@ -48,6 +48,18 @@ Lint with [ESLint]:
 yarn lint
 ```
 
+Check for formatting errors with [Prettier]:
+
+```console
+yarn fmt
+```
+
+Correct formatting errors with [Prettier]:
+
+```console
+yarn fmt:fix
+```
+
 Generate an optimized build for production:
 
 ```console
@@ -65,6 +77,7 @@ yarn preview
 [`yarn`]: https://yarnpkg.com/
 [ESLint]: https://eslint.org/
 [Node]: https://nodejs.org/en
+[Prettier]: https://prettier.io/
 [React]: https://react.dev
 [spa]: 
 [TypeScript]: https://www.typescriptlang.org/
