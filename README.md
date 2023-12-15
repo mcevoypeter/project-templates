@@ -79,6 +79,5 @@ yarn preview
 [Node]: https://nodejs.org/en
 [Prettier]: https://prettier.io/
 [React]: https://react.dev
-
-[spa]:
+[spa]: https://en.wikipedia.org/wiki/Single-page_application
 [TypeScript]: https://www.typescriptlang.org/
