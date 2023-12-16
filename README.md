@@ -34,6 +34,13 @@ Install the project's dependencies:
 yarn install
 ```
 
+Install the pre-commit [Git hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks):
+
+```console
+cd .git/hooks
+ln -s ../../hooks/pre-commit .
+```
+
 ## Development
 
 Launch the application in development mode:

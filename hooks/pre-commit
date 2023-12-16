@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# Verify what is about to be committed. Called by "git commit" with no
+# arguments.  The hook should exit with non-zero status after issuing an
+# appropriate message if it wants to stop the commit.
+
+bold=$(tput bold)
+normal=$(tput sgr0)
+
+echo "${bold}yarn lint${normal}"
+yarn lint || exit 1
+
+echo "${bold}yarn fmt${normal}"
+yarn fmt || exit 1
